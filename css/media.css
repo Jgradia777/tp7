@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+section {background-color: white;}
+aside {display: none;}}
+
+@media (min-width: 768px) and (max-width: 990px) {
+section {background-color: grey;}}
+
+@media (min-width: 991px) and (max-width: 995px) {
+section {background-color: grey;}}

@@ -1,0 +1,151 @@
+@font-face {
+  font-family:"fuente"
+  src url(".././fuente/ALGER.TTF");
+  format('truetype');}
+
+body {background-color: white ;
+      background-image: url(../imagenes/comida-saludable.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-size: 16px}
+
+nav {background-color: rgba(0,0,0, 0.35);
+    border:2px solid black;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;}
+    }
+.nav {width: 180px;
+    height: 60px;
+    border:2px solid black;
+    padding: 0px;}
+
+#titulo {
+  letter-spacing: 6px;
+  text-decoration: underline;
+  text-align: center;
+  font-family: fantasy;
+  color: black;
+  font-size: 5rem;
+  font-family: "fuente";}
+
+.parrafo {font-size: 1.1em}
+
+#titulo:hover {color: red;}
+
+.cookpad {
+  background-color: white;
+  width: 100%;
+  height: 100%;}
+
+.subtitulo {
+  text-decoration: underline;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  font-size: 3rem;}
+
+.subtitulo:hover {color: green;}
+
+section {background-color: rgba(0,0,0, 0.35);
+  border:5px solid black;
+  padding: 2px;
+  margin-top: 2px;
+  width: 100vw;
+  font-size: 1rem;
+  float: left;display: flex;}
+
+.titulo {
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 2rem;}
+
+.titulo:hover {color: blue;}
+
+aside {background-color: rgba(0,0,0, 0.35);
+  border:5px solid black;
+  padding: 2px;
+  margin-top: 2px;
+  width: 50vw;
+  display: flex;}
+
+div {background-color: ;
+  padding: 2px;
+  margin-top: 2px;
+  border:5px solid black;
+  padding: 2px;
+  margin: 2px;}
+
+.flex-container {
+  background-color: ;
+  display: flex;
+  border:5px solid black;
+  padding: 2px;
+  margin: 2px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.2em;}
+
+.flex-container div {
+  border:5px solid black;
+  padding: 2px;
+  margin: 2px;
+  background-image: linear-gradient(160deg, #006c4a 0, #006d5c 3.33%, #006d6d 6.67%, #006d7e 10%, #006d8e 13.33%, #006d9d 16.67%, #006dab 20%, #006cb7 23.33%, #006ac1 26.67%, #0068ca 30%, #0066cf 33.33%, #0062d3 36.67%, #005dd4 40%, #0058d2 43.33%, #0051ce 46.67%, #1a49c7 50%, #523fbe 53.33%, #7033b3 56.67%, #8624a7 60%, #970c98 63.33%, #a40089 66.67%, #ae0079 70%, #b50069 73.33%, #ba0059 76.67%, #bb0048 80%, #bb0039 83.33%, #b80029 86.67%, #b40018 90%, #ae0703 93.33%, #a62000 96.67%, #9d2f00 100%);}
+
+.n1 {
+  display: flex;
+}
+
+.subt {
+  text-decoration: underline;
+  font-family: serif;
+  font-size: 3em;}
+
+.subt:hover {color: yellow;}
+
+.fuente {
+  text-align: center;
+  text-decoration: underline;
+  background-color: black;
+  font-style: oblique;}
+
+a:hover {background-color: gold}
+
+footer {border:2px solid black;
+  padding: 2px;
+  margin: 2px;
+  width: 100%;}
+
+.foto {width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;}
+
+.foto1 {width: 100%;
+height: 100%;}
+.foto2 {width: 100%;
+height: 100%;}
+
+.foto1:hover {background-color: gold;}
+
+.wsp {position:fixed;
+  width: 1%;
+  height: 1%;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 200px;
+  right: 100px;}
+
+.card {
+  display: flex;
+}
+
+.wsp:hover {transform: scale(1.1);}
+
+.subing {color: black;
+  font-size: 1.5em;
+  background-image: linear-gradient(160deg, #9b8cfd 0, #6a6ae3 25%, #1a49c7 50%, #002cac 75%, #001994 100%);}
